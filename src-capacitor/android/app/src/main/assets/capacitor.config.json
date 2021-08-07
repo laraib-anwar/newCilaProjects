@@ -1,0 +1,7 @@
+{
+  "appId": "com.newCilaProject.com",
+  "appName": "Quasar App",
+  "bundledWebRuntime": false,
+  "npmClient": "yarn",
+  "webDir": "www"
+}
