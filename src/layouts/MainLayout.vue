@@ -8,7 +8,7 @@ import app from 'src/App.vue'
 
 
 
-export default defineComponent({
+export default ({
   name: 'MainLayout',
 
   components: {

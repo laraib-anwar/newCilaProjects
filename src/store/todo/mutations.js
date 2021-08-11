@@ -10,7 +10,7 @@ export function removeTodo(state, todo) {
   return state.todos.filter((todo) => todo.id !== id);
 }
 
-export function setTodos(state, todos) {
+export function updateTodo(state, updTodo) {
   const index = state.todos.findIndex((todo) => todo.id === updTodo.id);
   if (index !== -1) {
     return state.todos.splice(index, 1, updTodo);

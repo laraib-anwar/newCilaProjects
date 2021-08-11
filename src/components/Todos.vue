@@ -30,7 +30,7 @@ import { mapGetters, mapActions } from "vuex";
 export default {
   name: "Todos",
   methods: {
-    ...mapActions(["fetchTodos", "deleteTodo", "updateTodo"]),
+    ...mapActions( 'todo', ["fetchTodos", "deleteTodo", "updateTodo"]),
     onDblClick(todo) {
       const updTodo = {
         id: todo.id,
@@ -55,7 +55,7 @@ export default {
 }
 .todo {
   border: 1px solid #ccc;
-  background: #41b883;
+  background: #c9d8a7;
   padding: 1rem;
   border-radius: 5px;
   text-align: center;
