@@ -42,3 +42,4 @@ export async function updateTodo({ commit }, updTodo) {
 
   commit("updateTodo", response.data);
 }
+

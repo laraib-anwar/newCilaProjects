@@ -1,6 +1,3 @@
-
-export function allTodos (state) {
-  
-    return state.todos;
-  
+export function allTodos(state) {
+  return state.todos;
 }

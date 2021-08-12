@@ -22,7 +22,7 @@ export default {
     };
   },
   methods: {
-    ...mapActions(["addTodo"]),
+    ...mapActions('todo', ["addTodo"]),
     onSubmit(e) {
       e.preventDefault();
       this.addTodo(this.title);

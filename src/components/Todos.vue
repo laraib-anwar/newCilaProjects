@@ -40,7 +40,7 @@ export default {
       this.updateTodo(updTodo);
     }
   },
-  computed: mapGetters(["allTodos"]),
+  computed: mapGetters('todo',["allTodos"]),
   created() {
     this.fetchTodos();
   }
